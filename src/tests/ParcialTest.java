@@ -21,7 +21,7 @@ public class ParcialTest {
 
 
 	private Parcial parcial;
-	 // Uso BeforeAll por que la funcion no cambia ningun parametro ni el objeto parcial en si, solo se usa un metodo ocn parametros diferentes entonces las pruebas no se afectarian entre ellas
+	 
 	@BeforeEach
 	public void setUp() {
 		this.parcial = new Parcial();
